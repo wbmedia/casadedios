@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+/*=====================================================
+                     Margins
+======================================================*/
+.mar-t10{
+  margin-top:10px;
+}
+.mar-t20{
+  margin-top:20px;
+}
+.mar-t30{
+  margin-top:30px;
+}
+.mar-t40{
+  margin-top:40px;
+}.mar-t50{
+  margin-top:50px;
+}.mar-t60{
+  margin-top:60px;
+}.mar-t70{
+  margin-top:70px;
+}.mar-t80{
+  margin-top:80px;
+}.mar-t90{
+  margin-top:90px;
+}.mar-t100{
+  margin-top:100px;
+}
+
+.mar-b10{
+  margin-bottom:10px,
+}
+.mar-b20{
+  margin-bottom:20px,
+}
+.mar-b30{
+  margin-bottom:30px;
+}
+.mar-b40{
+  margin-bottom:40px;
+}
+.mar-b50{
+  margin-bottom:50px;
+}
+.mar-b60{
+  margin-bottom:60px;
+}
+.mar-b70{
+  margin-bottom:70px;
+}
+.mar-b80{
+  margin-bottom:80px;
+}
+.mar-b90{
+  margin-bottom:90px;
+}
+.mar-b100{
+  margin-bottom:100px;
+}
+
+.mar-l10{
+  margin-left: 10px;
+}
+.mar-l20{
+  margin-left: 20px;
+}
+.mar-l30{
+  margin-left: 30px;
+}
+.mar-l40{
+  margin-left: 40px;
+}
+.mar-l50{
+  margin-left: 50px;
+}
+.mar-l60{
+  margin-left: 60px;
+}
+.mar-l70{
+  margin-left: 70px;
+}
+.mar-l80{
+  margin-left: 80px;
+}
+.mar-l90{
+  margin-left: 90px;
+}
+.mar-l100{
+  margin-left: 100px;
+}
+
+
+.mar-r10{
+  margin-right: 10px;
+}
+.mar-t20{
+  margin-right: 20px;
+}
+.mar-r30{
+  margin-right: 30px;
+}
+.mar-r40{
+  margin-right: 40px;
+}
+.mar-r50{
+  margin-right: 50px;
+}
+.mar-r60{
+  margin-right: 60px;
+}
+.mar-r70{
+  margin-right: 70px;
+}
+.mar-r80{
+  margin-right: 80px;
+}
+.mar-r90{
+  margin-right: 90px;
+}
+.mar-r100{
+  margin-right: 100px;
+}
+
+/*=====================================================
+                     Google Maps
+======================================================*/
+
+
+  .google-maps {
+        position: relative;
+        padding-bottom: 35%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+/*=====================================================
+                     Social Links
+======================================================*/
+
+    .social-links {
+      vertical-align: baseline;
+      font-size: 32px;     
+    }
+
+    .social-links a{
+      color: #fff;
+    }
+
+     .social-links a:hover{
+      color: #90caf9;
+    }
